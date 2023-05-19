@@ -1,3 +1,16 @@
 1. What is Redux?
 
-->
+-> Redux is a small standalone JS library. However, it is commonly used with several other packages: Redux can integrate with any UI framework, and is most frequently used with React. React-Redux is our official package that lets your React components interact with a Redux store by reading pieces of state and dispatching actions to update the store.
+
+2. What is Redux Thunk used for?
+
+-> Redux Thunk middleware allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods dispatch and getState as parameters.
+
+3. What is Pure Component? When to use Pure Component over Component?
+
+-> PureComponent is exactly the same as Component except that it handles the shouldComponentUpdate method for you. When props or state changes, PureComponent will do a shallow comparison on both props and state. Component on the other hand won’t compare current props and state to next out of the box.
+
+4. What is the second argument that can optionally be passed tosetState and what is its purpose? 
+
+-> The second argument that can optionally be passed to setState is a callback function which gets called immediately after the setState is completed and the components get re-rendered.
+ 
