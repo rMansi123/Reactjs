@@ -1,0 +1,236 @@
+img{
+    max-width: 100%;
+}
+.navbar img{
+    width: 65px;
+}
+.nav-link{
+    color: #032d60!important;
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbar-nav li{
+    padding: 12px;
+}
+.loginbtn{
+    color: #032d60;
+    font-weight: bold;
+}
+.trybtn{font-weight: bold;}
+/* .header{
+    background-color: #007de7;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+} */
+.headerbg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.header{
+    background-image: url(../../public/img/headermain.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+    font-size: 45px;
+    color: #032d60;
+    font-weight: bold;
+}
+.header p{
+    font-size: 20px;
+}
+.btn{
+    margin-left: 10px!important;
+    padding: 10px 30px;
+}
+
+.headerbg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+h2{
+    color: #032d60;
+    text-align: center;
+}
+h3{
+    font-size: 18px;
+}
+
+/* -------------- products --------------- */
+.product{
+    background-image: url(../../public/img/productsbg1.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* clip-path: ellipse(80% 50.5% at 50% 50%); */
+    /* background-position: 0 ; */
+    /* background-size: 100%; */
+}
+.card{
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+.card img{
+    border-radius: 20px;
+}
+.card span{
+    font-size: 15px;
+    
+}
+.product .cardbtn{
+    margin-left: 45%!important;
+}
+.product Link{
+    color: #fff!important;
+    text-decoration: none;
+}
+/* -------------- Together ----------- */
+.together h1{
+    color: #032d60;
+}
+/* -------------- customers ---------- */
+.customer{
+    background-image: url(../../public/img/logobg.webp);
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* background-size: cover; */
+}
+.customer h1{
+    font-size: 30px;
+    color: #032d60;
+}
+.customer img{
+    max-width: 100%;
+}
+.customer .shadow{
+    width: 500px;
+}
+
+/* -------------- salesforce ------------- */
+.salesforce h3{
+    font-size: 30px;
+    color: #032d60;
+    font-weight: bold;
+}
+.salesforce img{
+    max-width: 100%;
+}
+
+/* ----------business------------- */
+.business img{
+    max-width: 100%;
+}
+.business a{
+    color: #032d60;
+    font-weight: bold;
+    
+}
+
+/* -----------group------------ */
+.group h3{
+    font-size: 35px;
+    color: #032d60;
+}
+.group img{
+    height: 300px;
+    clip-path: ellipse(80% 50.5% at 50% 50%);
+    background-position: center bottom ;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    
+}
+/* ------------question----------- */
+.question .shadow{
+    background-image: url(../../public/img/question.webp);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: center bottom;
+    
+}
+.question h3{
+    font-size: 35px;
+    color: #032d60;
+}
+.question a{
+    color: #032d60;
+}
+.question p{
+    font-size: 18px;
+}
+/* -----------links--------- */
+.links h4{
+    font-size: 14px;
+    color: #444444;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.links .fa-brands{
+    font-size: 30px;
+    /* background-color: #444444;
+    color: #fff; */
+}
+.links p{
+    color: #444444;
+    font-weight: bold;
+}
+.links ul{
+    list-style-type: none;
+   
+}
+.links li{
+    margin-bottom: 10px;   
+}
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(11, 92, 171, 1);  
+    
+}
+/* -------------footer--------- */
+.footer{
+    background: #032d60;
+    color: #fff;
+}
+.footer span, a{
+    font-size: 12px;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    display: inline;
+    padding: 0 6px;
+}
+.footer a{
+    
+    font-size: 12px;
+    color: #00a1e0;  
+    
+}
+.footer .border{
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+/* --------------allproducts------------ */
+.allproducts h1{
+    font-size: 50px;
+}
+/* .allproducts img{
+    max-width: 100%;
+    max-height: 100%;
+} */
+.allproducts .product-header img{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

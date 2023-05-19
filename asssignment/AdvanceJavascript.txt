@@ -1,0 +1,35 @@
+						MODULE: 1 (Introduction and Code Quality)
+
+1. Write a program to show an alert.
+-> <!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display an alert box.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert("Hello! I am an alert box!");
+}
+</script>
+</body>
+</html>
+
+2. What will be the result for these expressions?
+-> 	1. 5 > 4 : true
+	2."apple" > "pineapple" : 
+	3. "2" > "12" :
+	4. undefined == null : false
+	5. null == "\n0\n" :
+
+3. Will alert be shown? if ("0") { alert( 'Hello'); }
+-> Yes
+
+4. What is the code below going to output? alert( null || 2 || undefined );
+-> 2
+
+						MODULE: 2 (Data Types and Objects)
+
+1. 						
