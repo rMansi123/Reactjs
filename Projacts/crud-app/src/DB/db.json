@@ -1,0 +1,32 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "name": "john",
+      "email": "john@gmail.com",
+      "phone": 1234567890,
+      "country": "Canada"
+    },
+    {
+      "name": "Mansi",
+      "email": "mansi@gmail.com",
+      "phone": "9876543210",
+      "country": "india",
+      "id": 2
+    },
+    {
+      "name": "demo",
+      "email": "demo@gmail.com",
+      "phone": "1234567890",
+      "country": "UK",
+      "id": 3
+    },
+    {
+      "name": "sakshi",
+      "email": "shaks@gmail.com",
+      "phone": "1234567890",
+      "country": "Ind",
+      "id": 4
+    }
+  ]
+}

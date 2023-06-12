@@ -1,0 +1,84 @@
+.navbar img{
+    width: 100px;
+}
+.nav-link{
+    color: black!important;
+}
+.signupbtn{
+    background-color: #00687a;
+    border-radius: 20px;
+    color: white;
+    
+}
+.podio{
+    background-image: url(../../public/image/podiobg.jpeg );
+     background: linear-gradient(rgba(0,56,148,0.5),rgba(0,56,148,0.5)),url('../../public/image/podiobg.jpeg');
+    /* background-color: aqua; */
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.podio h1{
+    font-size: 55px;
+}
+.podio p{
+    font-size: 20px;
+}
+.workbtn{
+    background-color: #00687a ;
+    color: #fff;
+}
+.imageapi{
+    background-color: rgba(238, 238, 238, 1);
+}
+img{
+    max-width: 100%;
+}
+.drive, .feature h2{
+    font-size: 50px;
+}
+.drive p{
+    font-size: 20px;
+}
+.collbrate h2{
+    font-size: 55px;
+}
+.collbrate p{
+    font-size: 20px;
+}
+.feature img{
+    width: 50px;
+}
+.business{
+    background-color: rgba(58,64,76,1);
+}
+.business button{
+    background-color: #00687a;
+}
+.business h3{
+    font-size: 45px;
+}
+.footer img{
+    width: 100px;
+}
+.footer a{
+    color: black;
+}
+.usecase h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.usecase, .popular p{
+    font-size: 30px;
+}
+.usecase, .popular h2{
+    font-size: 50px;
+}
+.mycard:hover{
+    box-shadow: 3px 4px 7px gray;
+    transform: translateY(-5px);
+}
+.mycard h3{
+    color: #00687a;
+    font-size: 20px;
+}
