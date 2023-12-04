@@ -2,16 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import 'bootstrap5/src/css/bootstrap.min.css'
-import 'bootstrap5/src/js/bootstrap.bundle.min.js'
+import 'bootstrap5/src/css/bootstrap.min.css';
+import 'bootstrap5/src/js/bootstrap.bundle.min.js';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './compo/01task-navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Navbar />
+    <App />
   </React.StrictMode>
 );
 
